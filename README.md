@@ -4,7 +4,7 @@ This is an adminer docker image ready to use with sqlite
 ## How to use
 Run:
 ```bash
-docker run -d --rm -p 7777:8080 -v $(pwd):/app ghcr.io/te4g/adminer-sqlite
+docker run -d --rm -p 7777:8080 -v $(pwd):/var/www/html ghcr.io/te4g/adminer-sqlite
 ```
 1. Go to http://localhost:7777
 2. Select `sqlite3` as the database type
